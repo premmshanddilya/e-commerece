@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.navchild {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+#nav a {
+    color: black;
+    border: 2px solid rgb(128, 16, 16);
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#nav a:hover {
+    background-color: black;
+    color: white;
+}
+#nav h2 {
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+#nav button {
+    padding: 7px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#head img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    padding: 30px 30px;
+    border-radius: 40px;
+}
+#head {
+    background-image: url("./headphone.jpg");
+    background-size: cover;
+    width: 95%;
+    height: 420px;
+    margin-top: 20px;
+    margin-left: 24px;
+    border-radius: 20px;
+
+}
+#esl {
+    height: 370px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+.ear {
+    background-image: url("./earphone.jpg");
+    background-size: cover;
+    height: 100%;
+    width:280px;
+    border-radius: 20px;
+}
+.smt {
+    background-image: url("./smartwatch.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 280px;
+    border-radius: 20px;
+}
+.lpt {
+    background-image: url("./laptop.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 400px;
+    border-radius: 20px;
+}
+#gva {
+    height: 370px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+.game {
+    background-image: url("./game.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 400px;
+    border-radius: 20px;
+}
+.vr {
+    background-image: url("./vr.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 280px;
+    border-radius: 20px;
+}
+.alexa {
+    background-image: url("./alexa.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 280px;
+    border-radius: 20px;
+}
+#caption {
+    height: 150px;
+    width: 100%;  
+    padding: 0px 30px;
+}
+.caption-baby {
+    height: 100%;
+    padding: 0px 30px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#product {
+    height: 640px;
+    width: 100%;
+}
+.product1 {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.head1 {
+    background-image: url("./headphone1.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 240px;
+    border-radius: 20px;
+}
+
+.head1:hover {
+    border: 5px solid red;
+}
+.minihead {
+    position: relative;
+    top: 274px;
+    left: 20px;
+}
+.head2 {
+    background-image: url("./headphone2.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 240px;
+    border-radius: 20px;
+}
+.head2:hover {
+    border: 5px solid red;
+}
+.vr1 {
+    background-image: url("./vr-mini.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 240px;
+    border-radius: 20px;
+}
+.vr1:hover {
+    border: 5px solid red;
+}
+.laptop1 {
+    background-image: url("./laptop-mini.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 230px;
+    border-radius: 20px;
+}
+.laptop1:hover {
+    border: 5px solid red;
+}
+.product2 {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.head3 {
+    background-image: url("./headphone3.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 240px;
+    border-radius: 20px;
+}
+.head3:hover {
+    border: 5px solid red;
+}
+.head4 {
+    background-image: url("./headphone4.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 240px;
+    border-radius: 20px;
+}
+.head4:hover {
+    border: 5px solid red;
+}
+.head5 {
+    background-image: url("./headphone5.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 240px;
+    border-radius: 20px;
+}
+.head5:hover {
+    border: 5px solid red;
+}
+
+.smt1 {
+    background-image: url("./smartwatch-mini.jpg");
+    background-size: cover;
+    height: 270px;
+    width: 240px;
+    border-radius: 20px;
+}
+.smt1:hover {
+    border: 5px solid red;
+}
